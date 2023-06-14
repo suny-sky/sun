@@ -20,7 +20,7 @@ public class test {
         if(false || true && true){
             System.out.println(111);
         }
-
+//111111111111111111111111
 
     }
 }
