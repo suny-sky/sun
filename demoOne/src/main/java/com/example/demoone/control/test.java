@@ -17,10 +17,8 @@ public class test {
     private static List<String> LIST = Arrays.asList("https://", "www", ".", "javastack", ".", "cn");
     public static void main(String[] args) {
 
-        if(false || true && true){
-            System.out.println(111);
-        }
-
-
+        List<String> collect = LIST.stream().sorted().collect(Collectors.toList());
+        System.out.println(LIST);
+        System.out.println("collect："+collect);
     }
 }
